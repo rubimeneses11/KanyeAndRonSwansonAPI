@@ -11,7 +11,7 @@ for (int i = 0; i < 5; i++)
 
     var kanyeResponse = client.GetStringAsync(kanyeURL).Result;
 
-    var kanyeQuote = JObject.Parse(kanyeResponse).GetValue("quote").ToString();
+    var kanyeQuote = JObject.Parse(kanyeResponse);
 
 
 
@@ -20,9 +20,9 @@ for (int i = 0; i < 5; i++)
 
     var ronResponse = client.GetStringAsync(ronURL).Result;
 
-    var ronQuote = JArray.Parse(ronResponse).ToString().Replace('[', ' ').Replace(']', ' ').Trim();
+    var ronQuote = JArray.Parse(ronResponse);
 
 
-    Console.WriteLine(kanyeQuote);
-    Console.WriteLine(ronQuote);
+    Console.WriteLine($"Kanye: {kanyeQuote["quote"]}");
+    Console.WriteLine($"Ron: {ronQuote[0]}");
 }
