@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanyeAndRonSwansonAPI", "KanyeAndRonSwansonAPI\KanyeAndRonSwansonAPI.csproj", "{C600CEF4-0BA7-4FC8-97B6-BCEABA7FD26E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C600CEF4-0BA7-4FC8-97B6-BCEABA7FD26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C600CEF4-0BA7-4FC8-97B6-BCEABA7FD26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C600CEF4-0BA7-4FC8-97B6-BCEABA7FD26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C600CEF4-0BA7-4FC8-97B6-BCEABA7FD26E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {862BEA6D-A040-48B6-9895-87E3CE17DB81}
+	EndGlobalSection
+EndGlobal
